@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="be77b845-67c3-4de3-96ca-b4aad9d1c0b8"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Test
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Test"
+	namespace="launchMyrian"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="launchMyrianRepository"
+	id="958b73b6-e292-441b-9abf-36ce35977134"
+	rxversion="6.0"
+	relativepath="launchMyrianRepository.rxrep">
+		<codegen
+		classname="launchMyrianRepository"
+		namespace="launchMyrian"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="74cf8cce-d01d-43ff-8862-094875b5d0f6"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Test.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

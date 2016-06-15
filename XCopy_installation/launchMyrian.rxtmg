@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			name="launchMyrian"
+			id="e2ea206a-d036-49a5-ba32-e83f15d0a14e"/>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			name="launchMyrian"
+			id="e2ea206a-d036-49a5-ba32-e83f15d0a14e"/>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

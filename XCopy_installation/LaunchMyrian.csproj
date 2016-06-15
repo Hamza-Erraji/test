@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{4F784BED-853E-4B67-BA2B-CCC4E1F59827}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>launchMyrian</RootNamespace>
+    <AssemblyName>LaunchMyrian</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>97fcd478-6227-450e-ae3b-39c5de5ce118</projectdefaultrepository>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>eaa2c0bc-7f05-4099-b404-0db87f953705</id>
+    </Compile>
+    <Compile Include="deleteOldReport.cs">
+      <id>73d832ea-b2f2-44a7-bb52-fa86ba45890a</id>
+    </Compile>
+    <Compile Include="launchMyrian.cs">
+      <id>6a0bb315-dd6d-4a4c-863a-9cf8a1bc8514</id>
+    </Compile>
+    <Compile Include="launchMyrianRepository.cs">
+      <BoundTo>97fcd478-6227-450e-ae3b-39c5de5ce118</BoundTo>
+      <DependentUpon>launchMyrianRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>b2930c09-6c2d-4cbd-b40b-0a421332066a</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>c6c2b21f-e22f-4c67-ba15-60c441291845</id>
+    </Compile>
+    <Compile Include="Validation.cs">
+      <BoundTo>1eefab17-5285-4368-89a5-585230b1aa9c</BoundTo>
+      <DependentUpon>Validation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>640372d8-122e-4c81-bd45-afb40556c1bd</id>
+    </Compile>
+    <Compile Include="Validation.UserCode.cs">
+      <BoundTo>1eefab17-5285-4368-89a5-585230b1aa9c</BoundTo>
+      <DependentUpon>Validation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a962bd68-9fba-41fd-9887-81f6f34daa55</id>
+    </Compile>
+    <Compile Include="Test.cs">
+      <BoundTo>135640de-f7e8-40e7-bdf1-3e6448cc4664</BoundTo>
+      <DependentUpon>Test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>880d04d2-97c0-4276-bb8e-a09645c40914</id>
+    </Compile>
+    <Compile Include="Test.UserCode.cs">
+      <BoundTo>135640de-f7e8-40e7-bdf1-3e6448cc4664</BoundTo>
+      <DependentUpon>Test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>33ec7a29-7cac-4a60-a5b1-922c5cdc0a72</id>
+    </Compile>
+    <None Include="app.config">
+      <id>1e10fa56-eef2-49c9-af5b-f512fe249bcb</id>
+    </None>
+    <None Include="launchMyrianRepository.rximg">
+      <BoundTo>97fcd478-6227-450e-ae3b-39c5de5ce118</BoundTo>
+      <DependentUpon>launchMyrianRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b647ab5e-7355-42e4-988d-75572deefefd</id>
+    </None>
+    <None Include="launchMyrianRepository.rxrep">
+      <id>97fcd478-6227-450e-ae3b-39c5de5ce118</id>
+      <repoid>958b73b6-e292-441b-9abf-36ce35977134</repoid>
+      <reporootid>74cf8cce-d01d-43ff-8862-094875b5d0f6</reporootid>
+    </None>
+    <None Include="Validation.rxrec">
+      <BoundTo>97fcd478-6227-450e-ae3b-39c5de5ce118</BoundTo>
+      <id>1eefab17-5285-4368-89a5-585230b1aa9c</id>
+      <recordtableid>449a51de-8c47-418f-997c-2eb1391b165b</recordtableid>
+    </None>
+    <None Include="Test.rxrec">
+      <BoundTo>97fcd478-6227-450e-ae3b-39c5de5ce118</BoundTo>
+      <id>135640de-f7e8-40e7-bdf1-3e6448cc4664</id>
+      <recordtableid>be77b845-67c3-4de3-96ca-b4aad9d1c0b8</recordtableid>
+    </None>
+    <Content Include="launchMyrian.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5b59ecbc-6e88-4b44-a30e-091934b00cf9</id>
+    </Content>
+    <Content Include="XCopy_installation.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f11d40cc-1877-43c6-9fe7-fbbd2136ba44</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

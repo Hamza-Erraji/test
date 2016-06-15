@@ -1,0 +1,294 @@
+﻿<repository
+name="launchMyrianRepository"
+id="958b73b6-e292-441b-9abf-36ce35977134"
+rxversion="6.0">
+	<codegen
+	classname="launchMyrianRepository"
+	namespace="launchMyrian"/>
+	<rootfolder
+	name="Root"
+	id="74cf8cce-d01d-43ff-8862-094875b5d0f6"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Myrian"
+		id="4084737d-23fb-46d1-b4e0-4c0797529703"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Sectra Myrian  - Ouverture de session']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Text573"
+			id="149f2560-b003-4641-8239-b4ee34cbab36"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/text[@controlid='573']"
+			addcaps="text,nativewindow">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/text[@controlid='573']
+			</item>
+			<item
+			name="SomeButton"
+			id="c9325035-72eb-4255-92e7-09fa67907fc5"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/combobox[@controlid='880']/button[@text='>']"
+			addcaps="button">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/?/?/button[@text='&gt;']
+			</item>
+			<item
+			name="Admin"
+			id="8332c446-2d79-4fe6-aafd-272a2a8fc6be"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/combobox[@controlid='880']/list/listitem[@text='admin']"
+			addcaps="listitem">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/combobox[@controlid='880']/?/?/listitem[@text='admin']
+			</item>
+			<item
+			name="Intrasense"
+			id="f7bd672d-a48f-4986-85eb-5c2fe32583c4"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/combobox[@controlid='880']/list/listitem[@text='Intrasense']"
+			addcaps="listitem">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/combobox[@controlid='880']/?/?/listitem[@text='Intrasense']
+			</item>
+			<item
+			name="Admin1"
+			id="9cb3027d-f023-40c9-886b-947d7ef9f3cc"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/combobox[@controlid='880']/list"
+			addcaps="list,nativewindow">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/?/?/list
+			</item>
+			<item
+			name="ComboBox880"
+			id="a2d86795-3e24-4b82-8da0-44251cc47753"
+			searchtimeout="30000ms"
+			capname="combobox"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/combobox[@controlid='880']"
+			addcaps="combobox,nativewindow">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/combobox[@controlid='880']
+			</item>
+			<item
+			name="Text574"
+			id="6b6d2f82-604e-4f85-9390-8c303ae0e1a1"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/text[@controlid='574']"
+			addcaps="text,nativewindow">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/text[@controlid='574']
+			</item>
+			<item
+			name="Text881"
+			id="2262451a-4a94-472d-9e87-69c26b19a2df"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/text[@controlid='881']"
+			addcaps="text,nativewindow">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/text[@controlid='881']
+			</item>
+			<item
+			name="Text575"
+			id="117cc03f-c36f-450b-83c8-8af581d34d1a"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/text[@controlid='575']"
+			addcaps="text,nativewindow">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/text[@controlid='575']
+			</item>
+			<item
+			name="Text882"
+			id="7d720947-c00d-44df-9bac-622cb3959bf8"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/text[@controlid='882']"
+			addcaps="text,nativewindow"
+			refimgid="1731e661-f88e-43c2-a49b-ac9e9e1cd711">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/text[@controlid='882']
+			</item>
+			<item
+			name="ButtonOK"
+			id="02bb4fe4-2ad3-4fce-9f2a-b6e1191b87e8"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/button[@text='OK']"
+			addcaps="button,nativewindow"
+			refimgid="d83aca5a-0e9b-4651-b426-eaa282193fd1">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/button[@text='OK']
+			</item>
+			<item
+			name="Quitter"
+			id="6b86c337-78b5-4b48-aa87-b9d39966a5df"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/button[@text='Quitter']"
+			addcaps="button,nativewindow"
+			refimgid="3ded603e-770e-45cf-8a2a-76eb27c271f0">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/button[@text='Quitter']
+			</item>
+			<item
+			name="Text850"
+			id="053bf968-422d-4e5d-8004-2aa4c345c67f"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/text[@controlid='850']"
+			addcaps="text,nativewindow">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/text[@controlid='850']
+			</item>
+			<item
+			name="Systeme"
+			id="686c89c9-a7ed-4896-bcc8-c91f8414fceb"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/menubar[@accessiblename='Système']/menuitem[@accessiblename='Système']"
+			addcaps="menuitem,accessible">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/?/?/menuitem[@accessiblename='Syst&#232;me']
+			</item>
+			<item
+			name="Systeme1"
+			id="aa9b1792-9fde-4960-aa9f-de756481fc2d"
+			searchtimeout="30000ms"
+			capname="menubar"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/menubar[@accessiblename='Système']"
+			addcaps="menubar,accessible">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/menubar[@accessiblename='Syst&#232;me']
+			</item>
+			<item
+			name="Fermer"
+			id="04b022fe-ae5a-470f-b52b-f5c14ba98aec"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Fermer']"
+			addcaps="button,accessible">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/?/?/button[@accessiblename='Fermer']
+			</item>
+			<item
+			name="SectraMyrianOuvertureDeSession"
+			id="4868a807-5af9-437c-b064-686b6ab1bbdc"
+			searchtimeout="30000ms"
+			capname="titlebar"
+			refpath="/form[@title='Sectra Myrian  - Ouverture de session']/titlebar[@accessiblerole='TitleBar']"
+			addcaps="titlebar,accessible">
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title~'^Sectra\ Myrian\ \ -\ Ouvertur']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPjVN9LNRhHP/pQidiNcy8RB2KZsK8
+h7lsdCkv5w86KRvVdEk6tktaZSIvKxJ5vXBDUgqlvDYa11qmJopipVaba97izrnn2/d32Nr6I5/t
+s2fP5/N8v9/Pnuf3o2j4CzrZqY+XprxjxNmUjs42lNRUxnohqPwu7h0j8PQ9gWBBSwOlra2/aq0P
+ifmSso4RAq1DBNqGlcSbV1CE8uYV938IC2Nca5x68nyYQNNb5DsCta9kC4Ysr0ATVy5z9RQNNRaL
+r2kXVGy1k53uttXS1xg1BmXkGKtV1DH3phXj02zDRu2Y5lBcRZ2hmbMFR9hu7Hzktmtkwc/qS81L
+X0p6FLOdw8uyvGfzkyb2QeF0Zwb3bGVaHU7t/kigB++i7zOB87cGhswdeC6h6WPJ2W2K2UZM92CQ
+QNcHApJxAvFV0nkzWz8B3YAysGTvcAgrzs7rkC92YZMXowTudC0scLMmJeV9y/L6AQLl/QQqJARE
+uAbfmFXu8oquoigNa8o9usr6WIV8MrebAM2cLgKlfSssekmgBNeMdgKZHZjq4TLsS5HC3sjGYZzr
+SqenHHllCfx6JWRjIX3wOh5Ma1lcymhTKOkG+T0Ekh4pIeDKxIxT/NdFl/jRGR0DmwQs1qbTU07H
+K0vchFLYnzEHnNzfEF60QJwjqiSclMHRiGIZhBTKIAB1x1jJNz1jtzNMbdPDWGaIXPnYPGKrazwv
+/gK/zDnwuToDNiGi10xdVqiRwzmh+wUpeKPmfXlaNWD3wRwRlqxMXkNIco0orFQBcQ34dKn94xpM
+XS7KTFMPYWCUmAAXvYi7SogWK4iVD78cvS2qwjVYeUb5825OfPKNEfVicShKqgn6dpGep+4TOFmP
+l9dEIDxr5AdDQ+sAWgza/xsbkaZIc6QmLdAwtONZnBDLppOaCQga5csmezi5KNM/2rqh7nS0tpBf
+uyi3ZZ++h3sb5AaVs15s0jPfbmIfmKiuruWA23+iUxRF/QFRdH1JUngOTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SectraMyrian"
+		id="03be1b1d-6e8b-4181-9336-f0579cfe4bfd"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Sectra Myrian ']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="AfxWnd140"
+			id="53d4a2cd-373a-477e-b56e-aca294ac17cf"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title='Sectra Myrian ']/element[@class='AfxWnd140' and @instance='0']"
+			addcaps="unknown,nativewindow"
+			refimgid="11755b3b-1616-41b7-860f-995451ce5d46">
+				/form[@title='Sectra Myrian ']/element[@instance='0']
+			</item>
+			<item
+			name="Button737"
+			id="c37a2ec2-6748-4dd3-bd2d-d000a3dc51f1"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Sectra Myrian ']/container[@class='#32770' and @instance='0']/button[@controlid='737']"
+			addcaps="button,nativewindow"
+			refimgid="f659b635-0b32-4fff-bcf1-d495c40f02d4">
+				/form[@title='Sectra Myrian ']/?/?/button[@controlid='737']
+			</item>
+			<basepath>
+				/form[@title='Sectra Myrian ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKwSURBVDhPlVF9LNRxHP7dHTLJ7Fr+uRotbU3m
+pTsZq0hE0y2FapluFItWsoRl0kpewqgkDblmQjR5OZrymndNjazSi/qn0HDCnXMvT59zWtPazLM9
+++7zfD7P8/3+Pj9Gi+ACqbikT632jO0poXLdorgKsMRdSmnzMND2EfCO6agjbVUhLHGHYrR+CKgd
+BLq/ANs8EtNIN9C1V4C5S4JhRb9K9ifg8WugrHdezuXtcGQYvj6NsJbItjmcZrb34uARx/C+MO5G
+Wx5pHMbO68aGZ0MqRd1boOEd0PQBaKVP2e4amUwDJqLMETuflG8pVyTK6dJ+oO8rMDELpDUo5qhv
+S2Q4HsH5yYXtMlnbJ6BnBOj8DAgj6lv4Prd3BollA7UUXvFG9zrtzJ0WDXzje0fI66QNYKz9cr3d
+ogdqil/9fUX6c4UiVDw3VkPmwh7g7ksgrwuIq1bB7epPOZttKCLrWsY/czwkXqLWZLUC1xuAlBdA
+TjtwvxMo6NadqY3AzSbAN0cO+/M/YMEPLCLz+sXb9yeON54tV+uGiOnNQFjemDRBolQ9oABtfTx/
+Adb+lcO7Lo/KBCLJENlowYuLZZiDt2RSh6hxOMdNYHfCFDySppRWh0pabPyeNO9Pm8W+5Bm4XJsG
+P+z9qJ6e4R6yWBK1f0eH04+Ucu2gd5YcnhlzMOUJMgwMuFYWXg+zXROn4Z4yA/fUWQiz58GzPhZD
+Fo7OuYToSsX3wCI1Ip4CW51PlZO0hcgShPYmBhRpcLRACVGxBuFlC0pDI+5J6i0P2Cw44S6M7ewz
+s3BKonLRrNUtD+SeiawCzlXS5usAe5/0ZpLNtb1/wSaaEI2IusUQNjlcEkRVqTVR1cCF4slfHA5H
+SPLy21eAnl1AVWnQvdFJ/TXGIVQb6+TVwZTovHT+BwzzG5MsejzfaMBRAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ServeurDactivationIntrouvable"
+		id="b5798d18-0cd3-4264-95d3-cb4c85f444c2"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Serveur d''activation introuvable']"
+		addcaps="form,nativewindow"
+		refimgid="01b78533-d8fa-4eec-9642-5e92806d7b4b"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Button1"
+			id="91d3f167-97f4-490e-9173-85e2be6b896b"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Serveur d''activation introuvable']/button[@controlid='1']"
+			addcaps="button,nativewindow"
+			refimgid="8273cabe-8f01-49d8-8fe9-76e575936cea">
+				/form[@title~'^Serveur\ d''activation\ intr']/button[@controlid='1']
+			</item>
+			<basepath>
+				/form[@title~'^Serveur\ d''activation\ intr']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPjVN9LNRhHP/pQidiNcy8RB2KZsK8
+h7lsdCkv5w86KRvVdEk6tktaZSIvKxJ5vXBDUgqlvDYa11qmJopipVaba97izrnn2/d32Nr6I5/t
+s2fP5/N8v9/Pnuf3o2j4CzrZqY+XprxjxNmUjs42lNRUxnohqPwu7h0j8PQ9gWBBSwOlra2/aq0P
+ifmSso4RAq1DBNqGlcSbV1CE8uYV938IC2Nca5x68nyYQNNb5DsCta9kC4Ysr0ATVy5z9RQNNRaL
+r2kXVGy1k53uttXS1xg1BmXkGKtV1DH3phXj02zDRu2Y5lBcRZ2hmbMFR9hu7Hzktmtkwc/qS81L
+X0p6FLOdw8uyvGfzkyb2QeF0Zwb3bGVaHU7t/kigB++i7zOB87cGhswdeC6h6WPJ2W2K2UZM92CQ
+QNcHApJxAvFV0nkzWz8B3YAysGTvcAgrzs7rkC92YZMXowTudC0scLMmJeV9y/L6AQLl/QQqJARE
+uAbfmFXu8oquoigNa8o9usr6WIV8MrebAM2cLgKlfSssekmgBNeMdgKZHZjq4TLsS5HC3sjGYZzr
+SqenHHllCfx6JWRjIX3wOh5Ma1lcymhTKOkG+T0Ekh4pIeDKxIxT/NdFl/jRGR0DmwQs1qbTU07H
+K0vchFLYnzEHnNzfEF60QJwjqiSclMHRiGIZhBTKIAB1x1jJNz1jtzNMbdPDWGaIXPnYPGKrazwv
+/gK/zDnwuToDNiGi10xdVqiRwzmh+wUpeKPmfXlaNWD3wRwRlqxMXkNIco0orFQBcQ34dKn94xpM
+XS7KTFMPYWCUmAAXvYi7SogWK4iVD78cvS2qwjVYeUb5825OfPKNEfVicShKqgn6dpGep+4TOFmP
+l9dEIDxr5AdDQ+sAWgza/xsbkaZIc6QmLdAwtONZnBDLppOaCQga5csmezi5KNM/2rqh7nS0tpBf
+uyi3ZZ++h3sb5AaVs15s0jPfbmIfmKiuruWA23+iUxRF/QFRdH1JUngOTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>
